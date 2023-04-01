@@ -13,7 +13,6 @@ const saveChanges = () => {
 
     localStorage.setItem('notes', JSON.stringify(notes));
 }
-
 // to add the div in the browser
 const addNewNote = (text = '') => {
     const note = document.createElement('div');
@@ -69,6 +68,7 @@ const addNewNote = (text = '') => {
     });
 
     document.body.appendChild(note);
+
 
 }
 

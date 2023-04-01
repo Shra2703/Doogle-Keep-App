@@ -39,7 +39,6 @@ body{
 
 .btn-div{
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-
     position: fixed;
     top: 7rem;
     right: 1rem;
@@ -206,3 +205,38 @@ button.learn-more .button-text:hover{
     display: none;
 }
 
+
+
+/* query selector */
+
+@media screen and (max-width: 1175px) {
+    .note  {
+        margin-top: 6rem;
+        margin-right: -1.5rem;
+        margin-left: 9rem;
+    }
+  }
+  @media screen and (max-width: 1034px) {
+    .note  {
+        margin-right: -6.5rem;
+    }
+  }
+
+  @media screen and (max-width: 958px) {
+    .note  {
+        margin-right: -2.5rem;
+    margin-left: 6rem;
+    }
+  }
+
+  @media screen and (max-width: 858px) {
+    .note  {
+        margin-left: 16rem
+    }
+  }
+
+  @media screen and (max-width: 724px) {
+    .note  {
+        margin-left: 16rem
+    }
+  }
