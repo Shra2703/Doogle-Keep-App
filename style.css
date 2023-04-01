@@ -136,13 +136,15 @@ button.learn-more .button-text:hover{
 .note{
     width: 22rem;
     /* border: 1px solid black; */
-    height: 13rem;
-    margin: 2rem;
-    margin-top: 12rem;
-    margin-right: 5rem;
+    height: 10rem;
     background: white;
     overflow-y: scroll;
-    position: absolute;
+    position: relative;
+    margin: 2rem;
+    margin-top: 6rem;
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+   
 }
 
 .operation{
@@ -159,9 +161,10 @@ button.learn-more .button-text:hover{
     height: 344px;
     width: 100%;
     padding: 13px;
-    margin-top: 6px;
+    margin-top: 42px;
     /* border: 1px solid; */
     overflow: hidden;
+
 }
 
 .fa-edit,
@@ -191,6 +194,12 @@ button.learn-more .button-text:hover{
 
 .main{
     padding: 20px;
+    font-weight: bolder;
+    overflow-x: hidden;
+    width: 20rem;
+    /* border: 1px solid; */
+    /* height: 344px; */
+    margin-top: 42px;
 }
 
 .hidden{
